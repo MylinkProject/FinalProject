@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nadaalbar.mylinks.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="489dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/viewLinksId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Links" />
+
+        <Button
+            android:id="@+id/viewCatId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Catedories" />
+
+        <Button
+            android:id="@+id/addLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Link" />
+
+        <Button
+            android:id="@+id/AddCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Category" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nadaalbar.mylinks.ViewUpdateLink">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/vulinkId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/vuAddDescId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="67dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textColor="@color/White"
+            android:inputType="textPersonName"
+            android:text="Link" />
+
+        <TextView
+            android:id="@+id/vuAddDescId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/vulinkId"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:textSize="20dp"
+            android:textColor="@color/White"
+            android:inputType="textPersonName"
+            android:text="Description" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nadaalbar.mylinks.ViewUpdateLink">
+
+    <RelativeLayout
+        android:layout_width="377dp"
+        android:layout_height="510dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/vulinkId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Add link" />
+
+        <EditText
+            android:id="@+id/vuAddDescId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/vulinkId"
+            android:layout_below="@+id/vulinkId"
+            android:layout_marginTop="69dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Add Description" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="73dp"
+            android:layout_marginEnd="55dp"
+            android:text="Update"
+            tools:text="Update" />
+
+        <Button
+            android:id="@+id/vubtnVoiceNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="63dp"
+            android:text="Voice Note" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

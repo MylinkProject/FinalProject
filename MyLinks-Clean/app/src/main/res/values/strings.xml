@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyLinks</string>
+    <string name="text_add">ADD</string>
+    <string name="text_links">Links</string>
+    <string name="text_categories">Categories</string>
+</resources>
